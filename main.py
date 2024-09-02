@@ -8,10 +8,10 @@ app = FastAPI()
 def get_db_connection():
     try:
         connection = psycopg2.connect(
-            dbname="test_db_cua7",
+            dbname="tcc_wt2c",
             user="guilherme",
-            password="JUkHqaT8aWPzhLXLqZ1eKy3kYjqZm1LZ",
-            host="dpg-cqtaqslds78s739io6ig-a.oregon-postgres.render.com",
+            password="ArRqQLQVOtJcdPs8DZLVmGWHxZy2ZJR6",
+            host="dpg-crb3dsjtq21c73cf85rg-a.oregon-postgres.render.com",
             port="5432"
         )
         print("Conectado ao banco de dados.")
